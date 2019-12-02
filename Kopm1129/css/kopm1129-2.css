@@ -1,0 +1,85 @@
+body 
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: white;
+}
+
+.Container-All {
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header 
+{
+    margin: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.portrait 
+{
+    background-image: url(../images/glamis_CA-2.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 245px;
+}
+
+.me 
+{
+    float: left;
+}
+
+.content {
+    background-color: white;
+    margin-left:250px;
+    width: auto;
+    display: block;
+    height: auto;
+}
+
+nav 
+{
+    display: block;
+    float: left;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+background-color: yellow;
+}
+
+a:visited {
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    float: left;
+}
+
+#follow
+{
+	margin-top: 9px;	
+	margin-right: 10px;
+	float: right;
+}
+
+#footerlinks
+{
+text-align: center;
+}
+ 
+html, body, div, span, h1, h2, h3, h4, a, em, img, strong, ul, li, section, article, footer, header, nav 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
